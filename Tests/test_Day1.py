@@ -5,7 +5,7 @@ from Days.Day1 import Day1
 
 class TestDay1(TestCase):
     def test_task1(self):
-        expected_value = str(5)
+        expected_value = str(11)
         actual_value = Day1('../Resources/Day1/test1').task1()
         self.assertEqual(expected_value, actual_value)
 
